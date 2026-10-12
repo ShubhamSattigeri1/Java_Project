@@ -1,0 +1,39 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# H2 Database
+*.mv.db
+*.trace.db
+
+# Test reports
+target/surefire-reports/
+target/failsafe-reports/
+
+# Coverage
+target/jacoco.exec
+target/site/jacoco/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
